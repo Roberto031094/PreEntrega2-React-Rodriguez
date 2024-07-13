@@ -25,7 +25,7 @@ function ItemListContainer() {
 
                 const filtered = breeds.filter(breed => {
                     const weight = parseInt(breed.weight.metric.split(' - ')[0]);
-                    if (id === "pequenos") {
+                    if (id === "pequeños") {
                         return weight <= 10;
                     } else if (id === "medianos") {
                         return weight > 10 && weight <= 25;

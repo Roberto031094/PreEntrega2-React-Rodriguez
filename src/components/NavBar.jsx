@@ -7,13 +7,13 @@ function NavBar() {
     <nav className="navy sticky-top">
       <ul className="nav-links d-flex flex-row justify-content-center list-unstyled m-0 p-0  text-center">
         <li className="m-3" style={{ width: '80px'}}>
-          <Link to="/" className="text-decoration-none">Catálogo</Link>
+          <Link to="/" className="text-decoration-none">Catálogo </Link>
         </li>
         <li className="mt-3">
           <p>|</p>
         </li>
         <li className="m-3" style={{ width: '80px'}}>
-          <Link to="/category/pequenos" className="text-decoration-none">Pequeños</Link>
+          <Link to="/category/pequeños" className="text-decoration-none">Pequeños</Link>
         </li>
         <li className="mt-3">
           <p>|</p>
